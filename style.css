@@ -1,0 +1,85 @@
+body{
+  /* background-color: rgba(48, 44, 38, 0.943); */
+
+}
+.frs-txt{
+  padding-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+#phonetic,
+#pos,
+#example,
+#antonyms,
+#synonyms,
+#example-i,
+#antonyms-i,
+#pos-i,
+#synonyms-i{
+  font-style: italic;
+}
+
+.field-body{
+  color: aliceblue;
+  border: 0px solid black;
+  border-radius: 20px;
+  /* margin-top: 3090px; */
+  background-color: darkslategray;
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  
+}
+input{
+  width: 30%;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  
+}
+input:hover{
+  width: 30%;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  border: 0px transparent solid;
+  border: 2px solid white;
+  background-color: darkslategray ;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button{
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 0px solid black;
+  border-radius: 5px;
+  border: 0px transparent solid;
+}
+
+button:hover{
+  width: 15%;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 2px solid white;
+  background-color: darkslategray ;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  
+
+}
+.field-input{
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
